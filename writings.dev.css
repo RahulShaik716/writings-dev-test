@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #232830;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1vh;
+}
+
+.hbot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hbot img {
+    height: 10vh;
+    width: 10vh;
+}
+
+.tags {
+    list-style-type: none;
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.tags li {
+
+    font-style: italic;
+    margin-right: 2vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #000;
+    padding: 1em;
+    width: 18vw;
+    border: 1px solid #252930;
+    border-radius: 1.5vw;
+
+}
+
+.card h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1em;
+    color: #0F1217;
+    font-weight: 600;
+}
+
+.desc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3vh;
+    color: #0F1217;
+    font-weight: 400;
+}
+
+.card img {
+    height: 15vh;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 1.5vmax;
+}
+
+.pagination {
+    display: flex;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    justify-content: center;
+    margin-top: 2vh;
+    padding: 2vmax;
+}
+
+.pagination a {
+    display: inline;
+    text-decoration: none;
+    margin-right: 2vw;
+    color: #909090;
+    line-height: 2vh;
+}
+
+.pagination a:hover,
+a:active {
+    color: #FF7575;
+    border-top: 3px solid #FF7575;
+}
+
+.footer {
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.at {
+    background-color: #4699E0;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+
+.at img {
+    height: 2vh;
+    width: 2vw;
+    object-fit: contain;
+}
+
+.at a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.at a:hover {
+    opacity: 0.5;
+}
